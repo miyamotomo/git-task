@@ -1,0 +1,116 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b
+}
+
+a {
+  text-decoration: none;
+  color: #38b48b;
+}
+
+header,main,footer {
+  font-family: Arial、Helvetica、sans-serif
+}
+
+header {
+  width: 100%; /* 横幅いっぱい */
+  height: 100px; /* 高さ100px */
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+  background-color: darkgreen; /* 背景色darkgreen */
+  color: #fff;
+}
+
+.heading a{
+  color: #fff;
+}
+
+.nav-list{
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  color: #fff
+}
+
+main {
+  width: 100%; /* 横幅いっぱい */
+  padding: 10px 40px 40px 40px;
+  background-color: #ecfcdf; /* 背景色#ecfcdf */
+}
+
+.self-introduction-heading {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.self-introduction-box {
+  display: flex;
+  justify-content: center;
+}
+
+.self-introduction-image {
+  width: 30%;
+  height: 100%;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.picture.jpeg {
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  }
+
+.self-introduction-label {
+  font-weight: bold;
+  width: 100px;
+}
+
+.self-introduction-info {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 10px 0;
+  line-height: 40px;
+}
+
+.social i {
+  margin: 0 20px 20px 0;
+}
+
+footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 100px; /* 高さ100px */
+  text-align: center;
+  line-height: 100px;
+  background-color: darkgreen; /* 背景色darkgreen */
+}
+
+.footer-text {
+  color: #fff;
+}
+
+@media screen and (max-width:768px) {
+  .self-introduction-box {
+    display: block;
+  }
+
+  .self-introduction-image {
+  width: 100%;
+  }
+
+  .self-introduction-info{
+  width: 100%;
+  }
+}
