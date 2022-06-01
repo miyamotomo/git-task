@@ -106,11 +106,16 @@ footer {
     display: block;
   }
 
-  .self-introduction-image {
+  .self-introduction-imagearea {
     width: 100%;
   }
 
-  .self-introduction-info{
+  .self-introduction-info {
     width: 100%;
+  }
+
+  footer{
+    position: absolute;
+    bottom: auto;
   }
 }
